@@ -1,0 +1,18 @@
+<section>
+  <div class="container" style="background:white;" >
+    <div class="">
+      <div class="col-md-12 text-center" >
+          <center style="font-family: sans-serif;"> <h1 class="mt-5">Manage Mini</h1> </center>
+          <hr/>
+          <div class="col-lg-12 ">
+          <form action="/mini/" method="post" enctype="multipart/form-data" >
+          <?= $this->csrf ?>
+            <input type="text" name="test" >
+            <input type="submit" value="send Post">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

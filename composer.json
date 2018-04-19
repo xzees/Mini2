@@ -1,0 +1,47 @@
+{
+    "name": "xzees/mini",
+    "description": "Mini No Framework for PHP 5.3+",
+    
+    "require": {
+	
+    "klein/klein": "^2.1",
+	"illuminate/database": "4.1.*",
+	"illuminate/validation": "4.1.*",
+	"illuminate/pagination": "4.1.5",
+	"phpunit/phpunit":"4.5",
+        "filp/whoops": "1.x-dev",
+        "monolog/monolog": "^1.23",
+        "illuminate/view": "4.1.x-dev",
+        "illuminate/support": "4.1.x-dev",
+        "jasongrimes/paginator": "~1.0",
+        "nervetattoo/elasticsearch": "^2.4",
+        "rpnzl/arrch": "^1.1",
+        "maximebf/debugbar": "^1.15",
+        "inlinestyle/inlinestyle": "^1.2",
+        "phpmailer/phpmailer": "^5.2",
+        "phpoffice/phpexcel": "^1.8",
+        "ticketpark/htmlphpexcel": "^0.4.1",
+        "nuovo/spreadsheet-reader": "^0.5.11",
+        "kriswallsmith/buzz": "^0.15.2",
+        "guzzlehttp/guzzle": "^3.8",
+        "curl/curl": "^1.8",
+        "mpdf/mpdf": "^6.0",
+        "jenssegers/agent": "^2.3",
+        "php-di/php-di": "^4.4",
+        "illuminate/http": "4.1.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "app/http/",
+            "Middleware\\": "app/middleware/",
+            "Models\\": "app/models/",
+            "Core\\":"core/",
+			"Helper\\":"app/helper"
+        },
+        "psr-0": {
+            "test": ""
+        }
+    },
+    "require-dev": {
+    }
+}
