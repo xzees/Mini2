@@ -1,12 +1,20 @@
 # Mini
 
-Mini No FrameWork.
+Mini2 FrameWork.
 
-<a href="https://github.com/klein/klein.php">klein</a> is a fast & flexible router for PHP 5.3+
+<a href="https://github.com/klein/klein.php">klein</a> 
+is a fast & flexible router for PHP 5.3+
+
+##app/service/service.php
 
 <a href="https://github.com/illuminate/database">illuminate/database</a> for PHP 5.3+
 
 The Illuminate Database component is a full database toolkit for PHP, providing an expressive query builder, ActiveRecord style ORM, and schema builder. It currently supports MySQL, Postgres, SQL Server, and SQLite. It also serves as the database layer of the Laravel PHP framework.
+
+<a href="https://github.com/PHP-DI/PHP-DI">PHP-DI</a>
+PHP-DI's configuration is written in PHP, allowing to benefit from auto-completion, static analysis and refactoring support with any IDE.
+
+##config/di.php
 
 #Base Controller
 
