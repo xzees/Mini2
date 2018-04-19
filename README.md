@@ -1,4 +1,4 @@
-# Mini
+# Mini2
 
 Mini2 FrameWork.
 
